@@ -1,0 +1,11 @@
+prefix=/Users/abhiramkattunga/Desktop/ML-Projects/California_House-Pricing/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/abhiramkattunga/Desktop/ML-Projects/California_House-Pricing/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}
